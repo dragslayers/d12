@@ -1,0 +1,29 @@
+body .menu {
+  background-color: aqua;
+}
+body .menu .li {
+  color: red;
+}
+table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+table .col {
+  color: red;
+}
+table td {
+  color: blueviolet;
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: green;
+    color: blue;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    background-color: red;
+  }
+}
