@@ -1,0 +1,17 @@
+table {
+
+    max-width : 80%;
+}
+
+main > div {
+    justify-content: center;
+    display: flex;
+}
+
+/*tbody tr:nth-child(odd) {
+    background-color: yellowgreen;
+}*/
+
+tr {
+    cursor: pointer;
+}
